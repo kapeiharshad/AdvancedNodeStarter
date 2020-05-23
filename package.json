@@ -21,6 +21,7 @@
     "cookie-session": "^2.0.0-beta.2",
     "express": "^4.15.3",
     "jest": "^26.0.1",
+    "keygrip": "^1.1.0",
     "migrate-mongoose": "^3.2.2",
     "mongodb": "^3.5.7",
     "mongoose": "^5.9.11",
@@ -30,6 +31,7 @@
     "path-parser": "^2.0.2",
     "puppeteer": "^3.0.4",
     "redis": "^3.0.2",
+    "safe-buffer": "^5.2.1",
     "uuid": "^3.2.1"
   }
 }
