@@ -10,7 +10,10 @@ require("./models/Blog");
 require("./services/passport");
 
 mongoose.Promise = global.Promise;
-mongoose.connect(keys.mongoURI, { useUnifiedTopology: true });
+mongoose.connect(keys.mongoURI, {
+  useUnifiedTopology: true,
+  useNewUrlParser: true
+});
 
 const app = express();
 
